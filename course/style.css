@@ -1,0 +1,103 @@
+.first_div{
+	height: 100px;
+}
+
+.welcome{
+	text-align: center;
+}
+
+#h4{
+	color: blue;
+}
+
+.td_1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-indent: 10px;
+}
+
+.p_margin_stat{
+	margin-left: 5px;
+	text-indent: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.p_margin_stat1{
+	margin-left: 5px;
+	text-indent: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: justify;
+	font-weight: bold;
+	color: black;
+}
+
+.p_margin_stat2{
+	margin-left: 8px;
+	font-family: Courier New, monospace;
+	font-size: 20px;
+	text-align: left;
+}
+
+.col_1_3{
+	background: #f2ffe6;
+	text-align: justify;
+	width: 90%;
+	border: solid black 1px;
+}
+
+.col_2{
+	background: #ffffcc;
+	border: solid black 1px;
+}
+
+.p_margin{
+	margin-left: 7px;
+	text-indent: 20px;
+	font-family: "Monotype Corsiva" Cursive;
+	font-size: 15px;
+}
+
+.p_margin1{
+	margin-left: 7px;
+	text-indent: 20px;
+	font-family: "Monotype Corsiva" Cursive;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+}
+
+#calendar3 {
+	width: 100%;
+	font-family: "Monotype Corsiva" Cursive;
+	line-height: 1.2em;
+	font-size: 15px;
+	text-align: center;
+}
+#calendar3 thead tr:last-child {
+	font-size: small;
+	color: rgb(85, 85, 85);
+}
+#calendar3 tbody td {
+	color: rgb(44, 86, 122);
+}
+#calendar3 tbody td:nth-child(n+6), #calendar3 .holiday {
+	color: rgb(231, 140, 92);
+}
+#calendar3 tbody td.today {
+	outline: 3px solid red;
+}
+
+.scrollup{
+	width: 40px;
+	height: 40px;
+	opacity: 1;
+	position: fixed;
+	bottom: 50px;
+	right: 100px;
+	display: none;
+	text-indent: -9999px;
+	background: url('icon_top.png') no-repeat;
+}
